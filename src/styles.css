@@ -1,4 +1,30 @@
 body {
     margin: 0;
-    background-color: rebeccapurple;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 170px 1fr 50px;
+    background-image: url('pizza.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 100vh; */
+}
+
+header {
+    /* height: 200px; */
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid rgb(37, 37, 37);
+}
+
+main {
+    /* background-color: cadetblue; */
+    height: 100vh;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top: 2px solid rgb(37, 37, 37);
 }
