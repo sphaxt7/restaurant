@@ -1,3 +1,4 @@
 import "./styles.css";
 
-console.log("Hello hello");
+const content = document.querySelector('#content');
+

@@ -2,8 +2,8 @@ body {
     margin: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 170px 1fr 50px;
-    background-image: url('pizza.jpg');
+    grid-template-rows: 190px 1fr 50px;
+    background-image: url('bakery.jpg');
     background-size: cover;
     background-attachment: fixed;
     /* height: 100vh; */
@@ -13,11 +13,19 @@ header {
     /* height: 200px; */
     background-color: rgba(0, 0, 0, 0.7);
     border-bottom: 2px solid rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
 }
 
 main {
     /* background-color: cadetblue; */
-    height: 100vh;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -27,4 +35,35 @@ footer {
     align-items: center;
     color: white;
     border-top: 2px solid rgb(37, 37, 37);
+}
+
+button {
+    background-color: unset;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    border: unset;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+nav {
+    height: 35px;
+}
+h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#content {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 650px;
+    height: 600px;
+    margin-block: 3rem;
+    padding: 1.5rem;
 }
