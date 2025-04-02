@@ -3,9 +3,10 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 190px 1fr 50px;
-    background-image: url('bakery.jpg');
+    background-image: url('imgs/sweets.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     /* height: 100vh; */
 }
 
@@ -66,4 +67,22 @@ h1 {
     height: 600px;
     margin-block: 3rem;
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content img {
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+}
+
+#content p {
+    margin-top: 0;
 }

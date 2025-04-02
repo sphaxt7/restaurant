@@ -1,4 +1,7 @@
+import initializeWebsite from "./website";
 import "./styles.css";
 
-const content = document.querySelector('#content');
 
+
+
+initializeWebsite();
