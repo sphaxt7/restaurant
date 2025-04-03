@@ -5,14 +5,16 @@ function loadHome() {
 
     const content = document.querySelector('#content');
     content.innerHTML = ''
+    content.className = 'content-home';
+
 
     const contentP1 = document.createElement('p');
     const contentP2 = document.createElement('p');
     const contentP3 = document.createElement('p');
     const contentImg = document.createElement('img');
 
-    contentP1.textContent = "Best Bakery in Fakestreet";
-    contentP2.textContent = "Made with love since 1980";
+    contentP1.textContent = "Bienvenue chez Maison Dulce";
+    contentP2.textContent = "Where Every Bite is a Delight";
     contentP3.textContent = "Order online or contact us!";
     contentImg.src = bakerImg;
 
