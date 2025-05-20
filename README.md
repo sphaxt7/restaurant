@@ -1,3 +1,3 @@
 # restaurant
 
-Part of the odin project curriculum
+## Restaurant website made specifically for learning purposes.
